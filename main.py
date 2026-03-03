@@ -184,3 +184,6 @@ else:
 
     redactor.save_state()
     print(f"Success: Processing complete. Mappings updated in client_mapping.json.")
+
+import imageprofiler
+imageprofiler.main()
